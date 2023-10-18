@@ -1,0 +1,26 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-lpc860-smart-lighting" type="demo" format="projectfile" name="LPC860 Smart Lighting">
+    <display_title>
+        Smart lighting LED bulb using LPC860
+    </display_title>
+    <overview>
+        <![CDATA[This is the source code for using LPC860 as an IEC-62386 compatible smart RGB light bulb, and is the default firmware for the smart lighting control gear board.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="lpc"></family>
+    </families>
+    <nxp_compatible_hw>
+        <custom_hw></custom_hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="adc"></peripheral>
+        <peripheral name="timer"></peripheral>
+        <peripheral name="pwm"></peripheral>
+        <peripheral name="dma"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="hmi"></category>
+    </categories>
+</data:item>
